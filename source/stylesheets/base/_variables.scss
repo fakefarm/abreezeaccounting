@@ -1,12 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat);
-
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700|Varela+Round);
 
 
 // Typography
 $montserrat: 'Montserrat', sans-serif;
 $cond: 'Oswald', sans-serif;
 $fat: $montserrat, sans-serif;
-$sans-serif: $montserrat, $helvetica;
+$sans-serif: 'Nunito', sans-serif;
+$sans-serif-2: 'Varela Round', sans-serif;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -17,8 +17,11 @@ $base-line-height: $base-font-size * 1.5;
 $unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
 $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(3);
+$base-spacing: 1.5em !default;
+$medium-screen: em(640) !default;
 
 // Colors
+$breeze-blue: #0071bd;
 $blue: #0ab0c4;
 $blog-bg: #173138;
 $dark-gray: #333;
@@ -39,7 +42,7 @@ $bird-light-green: #e1fff9;
 $base-background-color: white;
 
 // Font Colors
-$base-font-color: $blue;
+$base-font-color: $dark-gray;
 $base-accent-color: $blue;
 
 // Link Colors
